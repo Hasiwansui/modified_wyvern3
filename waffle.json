@@ -1,0 +1,13 @@
+{
+    "compilerType": "solcjs",
+    "compilerVersion": "0.7.5",
+    "sourceDirectory": "./contracts",
+    "outputDirectory": "./build",
+    "flattenOutputDirectory": "./custom_flatten",
+    "compilerOptions": {
+      "optimizer":{
+        "enabled": true,
+        "runs":999
+      }
+    }
+  }
